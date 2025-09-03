@@ -6,7 +6,8 @@
       "Bash(npm run dev:*)",
       "Bash(ping:*)",
       "Bash(npx localtunnel:*)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(npm run build:*)"
     ],
     "deny": [],
     "ask": []
