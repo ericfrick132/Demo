@@ -18,7 +18,7 @@ export const vehicles: Vehicle[] = [
     name: 'Jeep Avenger',
     model: 'Avenger',
     brand: 'Jeep',
-    modelUrl: 'JEEP/jeep avenger.glb',
+    modelUrl: 'https://bunkerapp.b-cdn.net/JEEP/jeep%20avenger.glb',
     description: 'SUV compacto 100% eléctrico con capacidades off-road auténticas',
     features: [
       'Motor eléctrico de 156 CV',
@@ -34,7 +34,7 @@ export const vehicles: Vehicle[] = [
     name: 'Jeep Commander Blackhawk',
     model: 'Commander Blackhawk',
     brand: 'Jeep',
-    modelUrl: 'JEEP/jeep commander blackhawk.glb',
+    modelUrl: 'https://bunkerapp.b-cdn.net/JEEP/jeep%20commander%20blackhawk.glb',
     description: 'SUV de 7 plazas con edición especial Blackhawk y máxima tecnología',
     features: [
       'Motor Turbo 1.3L 185 CV',
@@ -50,7 +50,7 @@ export const vehicles: Vehicle[] = [
     name: 'Jeep Commander Limited',
     model: 'Commander Limited',
     brand: 'Jeep',
-    modelUrl: 'JEEP/jeep commander limited.glb',
+    modelUrl: 'https://bunkerapp.b-cdn.net/JEEP/jeep%20commander%20limited.glb',
     description: 'SUV premium de 7 plazas con máximo lujo y tecnología avanzada',
     features: [
       'Motor Turbo 1.3L 185 CV',
@@ -66,7 +66,7 @@ export const vehicles: Vehicle[] = [
     name: 'Jeep Overland',
     model: 'Overland',
     brand: 'Jeep',
-    modelUrl: 'JEEP/jeep overland.glb',
+    modelUrl: 'https://bunkerapp.b-cdn.net/JEEP/jeep%20overland.glb',
     description: 'SUV preparado para aventuras extremas con capacidades off-road superiores',
     features: [
       'Sistema 4x4 Trail Rated',
@@ -83,7 +83,7 @@ export const vehicles: Vehicle[] = [
     name: 'RAM 1500 Laramie',
     model: '1500 Laramie',
     brand: 'RAM',
-    modelUrl: 'RAM/RAM 1500 Laramie.glb',
+    modelUrl: 'https://bunkerapp.b-cdn.net/RAM/RAM%201500%20Laramie.glb',
     description: 'Pickup full-size premium con motor V8 HEMI y máximo lujo',
     features: [
       'Motor HEMI V8 5.7L 395 CV',
@@ -99,7 +99,7 @@ export const vehicles: Vehicle[] = [
     name: 'RAM Rampage Bighorn',
     model: 'Rampage Bighorn',
     brand: 'RAM',
-    modelUrl: 'RAM/RAM Rampage BIGHORN.glb',
+    modelUrl: 'https://bunkerapp.b-cdn.net/RAM/RAM%20Rampage%20BIGHORN.glb',
     description: 'Pickup compacta con estilo robusto y capacidades versátiles',
     features: [
       'Motor Turbo 2.0L 272 CV',
@@ -115,7 +115,7 @@ export const vehicles: Vehicle[] = [
     name: 'RAM Rampage Laramie',
     model: 'Rampage Laramie',
     brand: 'RAM',
-    modelUrl: 'RAM/RAM Rampage Laramie.glb',
+    modelUrl: 'https://bunkerapp.b-cdn.net/RAM/RAM%20Rampage%20Laramie.glb',
     description: 'Pickup compacta de lujo con terminaciones premium y tecnología avanzada',
     features: [
       'Motor Turbo 2.0L 272 CV',
@@ -131,7 +131,7 @@ export const vehicles: Vehicle[] = [
     name: 'RAM Rampage R/T',
     model: 'Rampage R/T',
     brand: 'RAM',
-    modelUrl: 'RAM/RAM Rampage RT.glb',
+    modelUrl: 'https://bunkerapp.b-cdn.net/RAM/RAM%20Rampage%20RT.glb',
     description: 'Pickup deportiva con performance superior y diseño agresivo',
     features: [
       'Motor Turbo 2.0L 272 CV',
@@ -147,7 +147,7 @@ export const vehicles: Vehicle[] = [
     name: 'RAM Rampage Rebel',
     model: 'Rampage Rebel',
     brand: 'RAM',
-    modelUrl: 'RAM/RAM Rampage Rebel.glb',
+    modelUrl: 'https://bunkerapp.b-cdn.net/RAM/RAM%20Rampage%20Rebel.glb',
     description: 'Pickup off-road con capacidades todo terreno y diseño distintivo',
     features: [
       'Motor Turbo 2.0L 272 CV',
@@ -163,7 +163,7 @@ export const vehicles: Vehicle[] = [
     name: 'RAM Blackhorn',
     model: 'Blackhorn',
     brand: 'RAM',
-    modelUrl: 'RAM/RAM blackhorn.glb',
+    modelUrl: 'https://bunkerapp.b-cdn.net/RAM/RAM%20blackhorn.glb',
     description: 'Pickup con edición especial Blackhorn, combinando estilo y funcionalidad',
     features: [
       'Motor Turbo 2.0L 272 CV',
