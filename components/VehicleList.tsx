@@ -21,7 +21,7 @@ const VehicleList: React.FC<VehicleListProps> = ({ onSelectVehicle }) => {
       <div className="bg-white shadow-sm sticky top-0 z-10">
         <div className="max-w-6xl mx-auto px-4 py-4">
           <h1 className="text-2xl font-bold text-center mb-4">
-            Expo Prado - SEVEL
+            Demo - AR
           </h1>
           <p className="text-center text-gray-600 mb-4">
             Selecciona un vehículo para verlo en Realidad Aumentada
