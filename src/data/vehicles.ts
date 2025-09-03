@@ -77,6 +77,22 @@ export const vehicles: Vehicle[] = [
     price: '$82.000.000',
     imageUrl: '/images/jeep-overland-preview.jpg'
   },
+  {
+    id: 'jeep-compass-blackhawk',
+    name: 'Jeep Compass Black Hawk',
+    model: 'Compass Black Hawk',
+    brand: 'Jeep',
+    modelUrl: 'https://bunkerapp.b-cdn.net/JEEP/jeep%20compass%20blackhawk.glb',
+    description: 'SUV compacto con edición especial Black Hawk y tecnología avanzada',
+    features: [
+      'Motor Turbo 1.3L MultiAir',
+      'Tracción 4x4 Trailhawk',
+      'Edición especial Black Hawk',
+      'Sistema Uconnect con pantalla 8.4"'
+    ],
+    price: '$65.500.000',
+    imageUrl: '/images/jeep-compass-blackhawk-preview.jpg'
+  },
   // RAM Vehicles
   {
     id: 'ram-1500-laramie',
