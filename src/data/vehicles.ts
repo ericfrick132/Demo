@@ -83,7 +83,7 @@ export const vehicles: Vehicle[] = [
     name: 'RAM 1500 Laramie',
     model: '1500 Laramie',
     brand: 'RAM',
-    modelUrl: 'https://bunkerapp.b-cdn.net/RAM/RAM%201500%20Laramie.glb',
+    modelUrl: 'https://bunkerapp.b-cdn.net/RAM/RAM%201500%20Laramie%20Fixed.glb',
     description: 'Pickup full-size premium con motor V8 HEMI y máximo lujo',
     features: [
       'Motor HEMI V8 5.7L 395 CV',
