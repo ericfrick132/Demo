@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import GoogleModelViewer from './components/GoogleModelViewer';
-import VehicleList from './components/VehicleList';
-import { Vehicle } from './src/data/vehicles';
+import GoogleModelViewer from '../components/GoogleModelViewer';
+import VehicleList from '../components/VehicleList';
+import { Vehicle } from './data/vehicles';
 
 function App() {
   const [selectedVehicle, setSelectedVehicle] = useState<Vehicle | null>(null);
