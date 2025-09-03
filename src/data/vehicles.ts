@@ -18,7 +18,7 @@ export const vehicles: Vehicle[] = [
     name: 'Jeep Avenger',
     model: 'Avenger',
     brand: 'Jeep',
-    modelUrl: 'https://bunkerapp.b-cdn.net/JEEP/jeep%20avenger.glb',
+    modelUrl: 'https://bunkerapp.b-cdn.net/JEEP2/jeep%20avenger.glb',
     description: 'SUV compacto 100% eléctrico con capacidades off-road auténticas',
     features: [
       'Motor eléctrico de 156 CV',
@@ -26,7 +26,6 @@ export const vehicles: Vehicle[] = [
       '4x4 Ready con Ground Clearance mejorado',
       'Pantalla Uconnect 10.25"'
     ],
-    price: '$45.000.000',
     imageUrl: '/images/jeep-avenger-preview.jpg'
   },
   {
@@ -34,7 +33,7 @@ export const vehicles: Vehicle[] = [
     name: 'Jeep Commander Blackhawk',
     model: 'Commander Blackhawk',
     brand: 'Jeep',
-    modelUrl: 'https://bunkerapp.b-cdn.net/JEEP/jeep%20commander%20blackhawk.glb',
+    modelUrl: 'https://bunkerapp.b-cdn.net/JEEP2/jeep%20commander%20blackhawk.glb',
     description: 'SUV de 7 plazas con edición especial Blackhawk y máxima tecnología',
     features: [
       'Motor Turbo 1.3L 185 CV',
@@ -42,7 +41,6 @@ export const vehicles: Vehicle[] = [
       'Tracción 4x4 automática',
       'Edición especial Blackhawk'
     ],
-    price: '$78.500.000',
     imageUrl: '/images/jeep-commander-blackhawk-preview.jpg'
   },
   {
@@ -50,7 +48,7 @@ export const vehicles: Vehicle[] = [
     name: 'Jeep Commander Limited',
     model: 'Commander Limited',
     brand: 'Jeep',
-    modelUrl: 'https://bunkerapp.b-cdn.net/JEEP/jeep%20commander%20limited.glb',
+    modelUrl: 'https://bunkerapp.b-cdn.net/JEEP2/jeep%20commander%20limited.glb',
     description: 'SUV premium de 7 plazas con máximo lujo y tecnología avanzada',
     features: [
       'Motor Turbo 1.3L 185 CV',
@@ -58,7 +56,6 @@ export const vehicles: Vehicle[] = [
       'Sistema de infoentretenimiento avanzado',
       'Asistencias a la conducción nivel 2'
     ],
-    price: '$75.000.000',
     imageUrl: '/images/jeep-commander-limited-preview.jpg'
   },
   {
@@ -66,7 +63,7 @@ export const vehicles: Vehicle[] = [
     name: 'Jeep Overland',
     model: 'Overland',
     brand: 'Jeep',
-    modelUrl: 'https://bunkerapp.b-cdn.net/JEEP/jeep%20overland.glb',
+    modelUrl: 'https://bunkerapp.b-cdn.net/JEEP2/jeep%20overland.glb',
     description: 'SUV preparado para aventuras extremas con capacidades off-road superiores',
     features: [
       'Sistema 4x4 Trail Rated',
@@ -74,7 +71,6 @@ export const vehicles: Vehicle[] = [
       'Suspensión elevada',
       'Neumáticos all-terrain'
     ],
-    price: '$82.000.000',
     imageUrl: '/images/jeep-overland-preview.jpg'
   },
   {
@@ -82,7 +78,7 @@ export const vehicles: Vehicle[] = [
     name: 'Jeep Compass Black Hawk',
     model: 'Compass Black Hawk',
     brand: 'Jeep',
-    modelUrl: 'https://bunkerapp.b-cdn.net/JEEP/jeep%20compass%20blackhawk.glb',
+    modelUrl: 'https://bunkerapp.b-cdn.net/JEEP2/Compass%20Black%20Hawk.glb',
     description: 'SUV compacto con edición especial Black Hawk y tecnología avanzada',
     features: [
       'Motor Turbo 1.3L MultiAir',
@@ -90,7 +86,6 @@ export const vehicles: Vehicle[] = [
       'Edición especial Black Hawk',
       'Sistema Uconnect con pantalla 8.4"'
     ],
-    price: '$65.500.000',
     imageUrl: '/images/jeep-compass-blackhawk-preview.jpg'
   },
   // RAM Vehicles
@@ -107,7 +102,6 @@ export const vehicles: Vehicle[] = [
       'Pantalla Uconnect 12"',
       'Carga útil hasta 1,000 kg'
     ],
-    price: '$95.000.000',
     imageUrl: '/images/ram-1500-laramie-preview.jpg'
   },
   {
@@ -123,7 +117,6 @@ export const vehicles: Vehicle[] = [
       'Carga útil 650 kg',
       'Estilo Bighorn exclusivo'
     ],
-    price: '$68.500.000',
     imageUrl: '/images/ram-rampage-bighorn-preview.jpg'
   },
   {
@@ -139,7 +132,6 @@ export const vehicles: Vehicle[] = [
       'Pantalla Uconnect 8.4"',
       'Asistencias a la conducción'
     ],
-    price: '$72.000.000',
     imageUrl: '/images/ram-rampage-laramie-preview.jpg'
   },
   {
@@ -155,7 +147,6 @@ export const vehicles: Vehicle[] = [
       'Escapes deportivos',
       'Estética R/T exclusiva'
     ],
-    price: '$75.500.000',
     imageUrl: '/images/ram-rampage-rt-preview.jpg'
   },
   {
@@ -171,7 +162,6 @@ export const vehicles: Vehicle[] = [
       'Neumáticos all-terrain',
       'Protecciones Rebel'
     ],
-    price: '$77.000.000',
     imageUrl: '/images/ram-rampage-rebel-preview.jpg'
   },
   {
@@ -187,7 +177,6 @@ export const vehicles: Vehicle[] = [
       'Llantas negras especiales',
       'Detalles cromados negros'
     ],
-    price: '$70.000.000',
     imageUrl: '/images/ram-blackhorn-preview.jpg'
   }
 ];
