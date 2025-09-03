@@ -28,7 +28,7 @@ export default function Login({ onLogin }: LoginProps) {
     <div className="min-h-screen bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 flex items-center justify-center px-4">
       <div className="bg-white rounded-lg shadow-xl p-8 w-full max-w-md">
         <div className="text-center mb-8">
-          <h1 className="text-3xl font-bold text-gray-800 mb-2">MoovX Demo</h1>
+          <h1 className="text-3xl font-bold text-gray-800 mb-2">Realidad Aumentada</h1>
           <p className="text-gray-600">Inicia sesión para continuar</p>
         </div>
 
@@ -77,7 +77,6 @@ export default function Login({ onLogin }: LoginProps) {
 
         <div className="mt-6 pt-6 border-t border-gray-200">
           <p className="text-sm text-gray-500 text-center">
-            Usuarios de prueba: santarosa, sevel
           </p>
         </div>
       </div>
