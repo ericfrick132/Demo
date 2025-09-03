@@ -1,19 +1,24 @@
-import React, { useState } from 'react';
-import { vehicles, Vehicle } from '../src/data/vehicles';
+import React, { useState, useMemo } from 'react';
+import { vehicles, Vehicle, getVehiclesByUser } from '../src/data/vehicles';
 import VehicleCard from './VehicleCard';
 
 interface VehicleListProps {
   onSelectVehicle: (vehicle: Vehicle) => void;
+  currentUser?: string;
 }
 
-const VehicleList: React.FC<VehicleListProps> = ({ onSelectVehicle }) => {
+const VehicleList: React.FC<VehicleListProps> = ({ onSelectVehicle, currentUser }) => {
   const [selectedBrand, setSelectedBrand] = useState<string>('all');
   
-  const brands = ['all', ...Array.from(new Set(vehicles.map(v => v.brand)))];
+  const userVehicles = useMemo(() => {
+    return currentUser ? getVehiclesByUser(currentUser) : vehicles;
+  }, [currentUser]);
+  
+  const brands = ['all', ...Array.from(new Set(userVehicles.map(v => v.brand)))];
   
   const filteredVehicles = selectedBrand === 'all' 
-    ? vehicles 
-    : vehicles.filter(v => v.brand === selectedBrand);
+    ? userVehicles 
+    : userVehicles.filter(v => v.brand === selectedBrand);
 
   return (
     <div className="min-h-screen bg-gray-50">

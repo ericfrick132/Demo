@@ -3,7 +3,11 @@ import GoogleModelViewer from '../components/GoogleModelViewer';
 import VehicleList from '../components/VehicleList';
 import { Vehicle } from './data/vehicles';
 
-function App() {
+interface AppProps {
+  currentUser?: string;
+}
+
+function App({ currentUser }: AppProps) {
   const [selectedVehicle, setSelectedVehicle] = useState<Vehicle | null>(null);
 
   const handleVehicleSelect = (vehicle: Vehicle) => {
@@ -15,7 +19,7 @@ function App() {
   };
 
   if (!selectedVehicle) {
-    return <VehicleList onSelectVehicle={handleVehicleSelect} />;
+    return <VehicleList onSelectVehicle={handleVehicleSelect} currentUser={currentUser} />;
   }
 
   return (

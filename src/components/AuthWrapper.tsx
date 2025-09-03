@@ -46,7 +46,7 @@ export default function AuthWrapper({ children }: AuthWrapperProps) {
           Cerrar Sesión
         </button>
       </div>
-      {children}
+      {React.cloneElement(children as React.ReactElement, { currentUser })}
     </div>
   );
 }

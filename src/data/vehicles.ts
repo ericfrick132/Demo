@@ -178,6 +178,22 @@ export const vehicles: Vehicle[] = [
       'Detalles cromados negros'
     ],
     imageUrl: '/images/ram-blackhorn-preview.jpg'
+  },
+  // RENAULT Vehicles
+  {
+    id: 'renault-captur',
+    name: 'Renault Captur',
+    model: 'Captur',
+    brand: 'RENAULT',
+    modelUrl: 'https://bunkerapp.b-cdn.net/RENAULT/renault-captur.glb',
+    description: 'SUV compacto con diseño distintivo y tecnología avanzada',
+    features: [
+      'Motor TCe 1.0L 100 CV',
+      'Tracción delantera',
+      'Pantalla EASY LINK 9.3"',
+      'Techo personalizable'
+    ],
+    imageUrl: '/images/renault-captur-preview.jpg'
   }
 ];
 
@@ -187,4 +203,19 @@ export const getVehicleById = (id: string): Vehicle | undefined => {
 
 export const getVehiclesByBrand = (brand: string): Vehicle[] => {
   return vehicles.filter(vehicle => vehicle.brand.toLowerCase() === brand.toLowerCase());
+};
+
+export const getVehiclesByUser = (username: string): Vehicle[] => {
+  switch (username.toLowerCase()) {
+    case 'sevel':
+      return vehicles.filter(vehicle => 
+        vehicle.brand === 'RAM' || vehicle.brand === 'Jeep'
+      );
+    case 'santarosa':
+      return vehicles.filter(vehicle => 
+        vehicle.brand === 'RENAULT'
+      );
+    default:
+      return vehicles;
+  }
 };
