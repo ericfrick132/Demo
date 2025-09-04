@@ -45,7 +45,11 @@ const GoogleModelViewer: React.FC<GoogleModelViewerProps> = ({
           console.error('modelUrl es requerido');
           return;
         }
-        modelViewer.src = modelUrl.startsWith('http') ? modelUrl : `/${modelUrl}`;
+        
+        // Añadir timestamp para evitar cache
+        const cacheBuster = `?v=${Date.now()}`;
+        const baseUrl = modelUrl.startsWith('http') ? modelUrl : `/${modelUrl}`;
+        modelViewer.src = baseUrl + cacheBuster;
 
         // Configurar AR
         modelViewer.setAttribute('ar', '');
