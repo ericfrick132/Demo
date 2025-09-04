@@ -7,7 +7,12 @@
       "Bash(ping:*)",
       "Bash(npx localtunnel:*)",
       "WebSearch",
-      "Bash(npm run build:*)"
+      "Bash(npm run build:*)",
+      "Bash(rm:*)",
+      "Bash(git lfs:*)",
+      "Bash(git rm:*)",
+      "Bash(git add:*)",
+      "Bash(git reset:*)"
     ],
     "deny": [],
     "ask": []
