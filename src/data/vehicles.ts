@@ -125,7 +125,7 @@ export const vehicles: Vehicle[] = [
     name: 'Renault Captur',
     model: 'Captur',
     brand: 'RENAULT',
-    modelUrl: 'https://bunkerapp.b-cdn.net/RENAULT/renault-captur.glb',
+    modelUrl: 'https://bunkerapp.b-cdn.net/RENAULT/renault-captur1.glb',
     description: 'SUV compacto con diseño distintivo y tecnología avanzada',
     features: [
       'Motor TCe 1.0L 100 CV',
