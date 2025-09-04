@@ -14,71 +14,11 @@ export interface Vehicle {
 export const vehicles: Vehicle[] = [
   // JEEP Vehicles
   {
-    id: 'jeep-avenger',
-    name: 'Jeep Avenger',
-    model: 'Avenger',
-    brand: 'Jeep',
-    modelUrl: 'https://bunkerapp.b-cdn.net/JEEP2/jeep%20avenger.glb',
-    description: 'SUV compacto 100% eléctrico con capacidades off-road auténticas',
-    features: [
-      'Motor eléctrico de 156 CV',
-      'Autonomía hasta 400 km',
-      '4x4 Ready con Ground Clearance mejorado',
-      'Pantalla Uconnect 10.25"'
-    ],
-    imageUrl: '/images/jeep-avenger-preview.jpg'
-  },
-  {
-    id: 'jeep-commander-blackhawk',
-    name: 'Jeep Commander Blackhawk',
-    model: 'Commander Blackhawk',
-    brand: 'Jeep',
-    modelUrl: 'https://bunkerapp.b-cdn.net/JEEP2/jeep%20commander%20blackhawk.glb',
-    description: 'SUV de 7 plazas con edición especial Blackhawk y máxima tecnología',
-    features: [
-      'Motor Turbo 1.3L 185 CV',
-      '7 plazas con configuración flexible',
-      'Tracción 4x4 automática',
-      'Edición especial Blackhawk'
-    ],
-    imageUrl: '/images/jeep-commander-blackhawk-preview.jpg'
-  },
-  {
-    id: 'jeep-commander-limited',
-    name: 'Jeep Commander Limited',
-    model: 'Commander Limited',
-    brand: 'Jeep',
-    modelUrl: 'https://bunkerapp.b-cdn.net/JEEP2/jeep%20commander%20limited.glb',
-    description: 'SUV premium de 7 plazas con máximo lujo y tecnología avanzada',
-    features: [
-      'Motor Turbo 1.3L 185 CV',
-      'Interior premium con cuero',
-      'Sistema de infoentretenimiento avanzado',
-      'Asistencias a la conducción nivel 2'
-    ],
-    imageUrl: '/images/jeep-commander-limited-preview.jpg'
-  },
-  {
-    id: 'jeep-overland',
-    name: 'Jeep Overland',
-    model: 'Overland',
-    brand: 'Jeep',
-    modelUrl: 'https://bunkerapp.b-cdn.net/JEEP2/jeep%20overland.glb',
-    description: 'SUV preparado para aventuras extremas con capacidades off-road superiores',
-    features: [
-      'Sistema 4x4 Trail Rated',
-      'Protecciones inferiores reforzadas',
-      'Suspensión elevada',
-      'Neumáticos all-terrain'
-    ],
-    imageUrl: '/images/jeep-overland-preview.jpg'
-  },
-  {
     id: 'jeep-compass-blackhawk',
     name: 'Jeep Compass Black Hawk',
     model: 'Compass Black Hawk',
     brand: 'Jeep',
-    modelUrl: 'https://bunkerapp.b-cdn.net/JEEP2/Compass%20Black%20Hawk.glb',
+    modelUrl: 'https://bunkerapp.b-cdn.net/JEEP2/Compass%20Black%20Hawk2.glb',
     description: 'SUV compacto con edición especial Black Hawk y tecnología avanzada',
     features: [
       'Motor Turbo 1.3L MultiAir',
